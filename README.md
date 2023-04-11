@@ -1,3 +1,3 @@
-# My-node-js-website
+# This is my random personal node js website
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-ohco2r)
+I don't know why you would be interested. You probably are not. 

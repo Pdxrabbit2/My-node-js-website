@@ -27,6 +27,13 @@ const requestListener = function (req, res) {
         res.end(contents);
       });
       break;
+    case '/signin':
+      fs.readFile('joke_signin.html').then((contents) => {
+        res.setHeader('Content-Type', 'text/html');
+        res.writeHead(200);
+        res.end(contents);
+      });
+      break;
   }
 };
 
